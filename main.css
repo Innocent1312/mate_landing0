@@ -67,14 +67,14 @@ main>.container {
 #main-pic {
     margin-top: 15px;
     background: url(img/life.jpg)no-repeat;
-    background-size: cover;
     height: 382px;
     position: relative;
+    object-fit: cover;
 }
 
 .small-text {
     position: absolute;
-    bottom: -15%;
+    bottom: -10%;
     font: Regular 14px/19px Segoe UI;
     letter-spacing: 0;
     color: #707070;
@@ -86,7 +86,7 @@ main>.container {
     height: 340px;
 }
 
-.about-aside>.main-text {
+.main-text {
     padding: 10%;
     font: Bold 18px/28px Ubuntu;
     font-size: 20px;
@@ -95,13 +95,13 @@ main>.container {
     text-transform: uppercase;
 }
 
-.about-aside>.main-text>a {
+.main-text>a {
     color: #143774;
 }
 
 #about-pic {
     background: url(img/about-me.jpg) no-repeat;
-    height: 150px;
+    height: 100px;
     margin: 7% 7% 0 7%;
     background-size: contain;
 }
@@ -111,4 +111,73 @@ main>.container {
     text-align: left;
     letter-spacing: 0;
     color: #143774;
+}
+
+.post {
+    margin-top: 7%;
+    height: 188px;
+    border-bottom: 1px solid #707070;
+}
+
+.post-main-text {
+    text-align: left;
+    font: Regular 28px/32px Lora;
+    font-size: 24px;
+    letter-spacing: 4.8px;
+    color: #143774;
+}
+
+.post-plain-text {
+    margin-top: 3%;
+    font: Light 18px/28px Ubuntu;
+    font-size: 18px;
+    color: #707070;
+    text-align: justify;
+}
+
+.post-link {
+    margin-top: 3%;
+    font: Bold 14px/28px Ubuntu;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+}
+
+.post-link>a {
+    color: #1792D2;
+}
+
+.post-aside {
+    border: 20px solid #EBEBEB;
+    height: 650px;
+}
+
+#post-aside-pic1 {
+    background: url(img/food.jpg) no-repeat;
+    height: 100px;
+    margin: 7% 7% 0 7%;
+    background-size: contain;
+}
+
+.post-aside-plain-text {
+    padding: 10%;
+    font: Regular 18px/28px Lora;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #143774;
+    border-bottom: 1px solid #707070;
+}
+
+#post-aside-pic2 {
+    background: url(img/work.jpg) no-repeat;
+    height: 100px;
+    margin: 7% 7% 0 7%;
+    background-size: contain;
+}
+
+#post-aside-pic3 {
+    background: url(img/deco.jpg) no-repeat;
+    height: 100px;
+    margin: 7% 7% 0 7%;
+    background-size: contain;
 }
