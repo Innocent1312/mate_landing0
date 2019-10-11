@@ -83,7 +83,7 @@ main>.container {
 .about-aside {
     margin-top: 15px;
     border: 20px solid #EBEBEB;
-    height: 400px;
+    height: 340px;
 }
 
 .about-aside>.main-text {
@@ -102,6 +102,13 @@ main>.container {
 #about-pic {
     background: url(img/about-me.jpg) no-repeat;
     height: 150px;
-    margin: 7%;
+    margin: 7% 7% 0 7%;
     background-size: contain;
+}
+
+.about-small-text {
+    padding: 7%;
+    text-align: left;
+    letter-spacing: 0;
+    color: #143774;
 }
