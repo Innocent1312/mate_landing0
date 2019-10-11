@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header>.container {
+    display: flex;
+    width: 980px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    height: 265px;
+}
+
+.header-main-text {
+    flex: 1.5;
+    text-align: left;
+    font: Regular 33px/42px Lora;
+    font-size: 42px;
+    letter-spacing: 0;
+    color: #143774;
+}
+
+.header-plain-text {
+    font: Bold 12px/13px Ubuntu;
+    letter-spacing: 2.4px;
+    color: #1792D2;
+    text-transform: uppercase;
+}
+
+.nav {
+    flex: 1;
+    font: Bold 16px/18px Ubuntu;
+    letter-spacing: 3.2px;
+    color: #717171;
+    text-transform: uppercase;
+}
+
+.nav>a {
+    padding-right: 3%;
+}
+
+.nav :hover {
+    border-bottom: 1px solid black;
+}
+
+
+main>.container {
+    width: 980px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3.5fr 1fr;
+    grid-gap: 7%;
+}
+
+#main-pic {
+    margin-top: 15px;
+    background: url(img/life.jpg)no-repeat;
+    background-size: cover;
+    height: 382px;
+    position: relative;
+}
+
+.small-text {
+    position: absolute;
+    bottom: -15%;
+    font: Regular 14px/19px Segoe UI;
+    letter-spacing: 0;
+    color: #707070;
+}
+
+.about-aside {
+    margin-top: 15px;
+    border: 20px solid #EBEBEB;
+    height: 400px;
+}
+
+.about-aside>.main-text {
+    padding: 10%;
+    font: Bold 18px/28px Ubuntu;
+    font-size: 20px;
+    letter-spacing: 3.6px;
+
+    text-transform: uppercase;
+}
+
+.about-aside>.main-text>a {
+    color: #143774;
+}
+
+#about-pic {
+    background: url(img/about-me.jpg) no-repeat;
+    height: 150px;
+    margin: 7%;
+    background-size: contain;
+}
